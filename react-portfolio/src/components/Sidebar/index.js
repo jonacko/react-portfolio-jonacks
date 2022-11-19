@@ -42,14 +42,7 @@ const Sidebar = () => (
             </a>
         </li>
         <li>
-            <a target="_blank"
-            rel= 'noreferrer' 
-            href="https://docs.google.com/document/d/1iZN3tGZigkfyCGNMFE_6yMmkxmd_IxPJWya1qsG7hMw/edit?usp=sharing">
-
-                <FontAwesomeIcon icon = {faFaceSmile} color="#4d4d4e" />
-            </a>
-        </li>
-        <li>
+          
             <a target="_blank"
             rel= 'noreferrer' 
             href="https://github.com/jonacko">
@@ -57,6 +50,15 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon = {faGlassMartini} color="#4d4d4e" />
             </a>
         </li>
+        <li>
+        <a target="_blank"
+            rel= 'noreferrer' 
+            href="https://musicisenoughforalifetime.wordpress.com/">
+
+                <FontAwesomeIcon icon = {faFaceSmile} color="#4d4d4e" />
+            </a>
+        </li>
+    
     </ul>
 </div>
 

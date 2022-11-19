@@ -29,7 +29,7 @@ const Contact = () => {
 
             <div className="contact-form">
                 <form ref={refForm} onSubmit={sendEmail}>
-    
+    <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
                     <ul>
                         <li className="half">
                             <input type="text" name="user_name" placeholder="Name" required />
@@ -40,7 +40,7 @@ const Contact = () => {
                         <li>
                             <input placeholder="Subject" type="text" name="subject" required />
                         </li>
-                        <li>\<textarea placeholder="message" name="message" required> </textarea>
+                        <li><textarea placeholder="message" name="message" required> </textarea>
                         </li>
                         <li>
                             <input type="submit" className='flat-button' value="SEND" />
