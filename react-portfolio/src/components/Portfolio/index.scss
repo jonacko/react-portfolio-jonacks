@@ -10,14 +10,14 @@
     }
 
     h1 {
-        color:black;
+        color: #5a0001;
         font-size: 60px;
         margin: 0;
     }
 
     h2 {
-        color:blue;
-        font-size: 40px;
+        color:darkslategrey;
+        font-size: 30px;
     }
 }
 
@@ -38,4 +38,21 @@
     border: none;
     border-radius: 10px;
     margin: 10px;
+}
+
+.btn-project-3 {
+    width: 20vw;
+    height: 15vw;
+    background: yellow;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project-container-1 {
+    flex-direction: column;
+}
+
+.project-container-2 {
+  flex-direction: column;
 }

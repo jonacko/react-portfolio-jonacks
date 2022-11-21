@@ -24,8 +24,7 @@ const Contact = () => {
         <div className="container contact-page">
         <div className="text-area">
             <h1> Contact Me</h1>
-            <h2>Here are my details</h2>
-            <p>Here is some text</p>
+            <h2>Please feel free to contact me using the form below.</h2>
 
             <div className="contact-form">
                 <form ref={refForm} onSubmit={sendEmail}>
@@ -40,7 +39,7 @@ const Contact = () => {
                         <li>
                             <input placeholder="Subject" type="text" name="subject" required />
                         </li>
-                        <li><textarea placeholder="message" name="message" required> </textarea>
+                        <li><textarea placeholder="Message" name="message" required> </textarea>
                         </li>
                         <li>
                             <input type="submit" className='flat-button' value="SEND" />

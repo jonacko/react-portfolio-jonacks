@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import JessAvatar from '../../assets/images/jess-avatar.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope, faSkull, faFaceSmile, faGlassMartini, faPaintbrush, faPencil,  } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faPaintbrush, faPencil, faCodeBranch, faLink, faBlog,  } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => (
 
@@ -38,7 +38,7 @@ const Sidebar = () => (
             rel= 'noreferrer' 
             href="https://www.linkedin.com/in/jessonuidev">
 
-                <FontAwesomeIcon icon = {faSkull} color="#4d4d4e" />
+                <FontAwesomeIcon icon = {faLink} color="#4d4d4e" />
             </a>
         </li>
         <li>
@@ -47,7 +47,7 @@ const Sidebar = () => (
             rel= 'noreferrer' 
             href="https://github.com/jonacko">
 
-                <FontAwesomeIcon icon = {faGlassMartini} color="#4d4d4e" />
+                <FontAwesomeIcon icon = {faCodeBranch} color="#4d4d4e" />
             </a>
         </li>
         <li>
@@ -55,7 +55,7 @@ const Sidebar = () => (
             rel= 'noreferrer' 
             href="https://musicisenoughforalifetime.wordpress.com/">
 
-                <FontAwesomeIcon icon = {faFaceSmile} color="#4d4d4e" />
+                <FontAwesomeIcon icon = {faBlog} color="#4d4d4e" />
             </a>
         </li>
     

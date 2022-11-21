@@ -10,14 +10,14 @@
     }
 
     h1 {
-        color:black;
+        color: #5a0001;
         font-size: 60px;
         margin: 0;
     }
 
     h2 {
-        color:blue;
-        font-size: 40px;
+        color:darkslategrey;
+        font-size: 30px;
     }
 }
 
@@ -57,29 +57,28 @@
     input[type='text'],
     input[type='email'] {
         width:100%;
-        border:0;
-        background: grey;
+        border: none;
+        border-color: #f13030;
+        background: whitesmoke;
         height: 50px;
         font-size: 16px;
-        color: white;
         padding: 0 20px;
         box-sizing: border-box;
         margin: 10px;
-        border-radius: 5px;
+    
     }
 
     textarea {
         width: 100%;
         border: 0;
-        background: red;
+        background: whitesmoke;
         height: 50px;
         font-size: 16px;
-        color: white;
         padding: 0 20px;
         margin: 10px;
         min-height: 150px;
         box-sizing: border-box;
-        border-radius: 5px;
+
     }
 
     .flat-button {
@@ -89,13 +88,13 @@
         letter-spacing: 3px;
         text-decoration: none;
         padding: 8px 10px;
-        border: 1px solid red;
+        border: 1px solid #f13030;
         float: right;
         border-radius: 5px;
         cursor: pointer;
 
         &:hover {
-            background: white;
+            background: #f13030;
             color:darkslategrey;
         }
     }

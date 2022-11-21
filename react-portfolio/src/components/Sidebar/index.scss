@@ -1,5 +1,5 @@
 .nav-bar {
-    background-color: chartreuse; 
+    background-color: #22181c; 
     width: 100px;
     height: 100%;
     position: absolute;
@@ -16,7 +16,7 @@
 
     img {
         display: block;
-        margin: 8px auto;
+        margin: 0;
         width: 100px;
         height: auto;
 
@@ -35,7 +35,7 @@ nav {
 
     a {
         font-size: 22px;
-        color:deeppink;
+        color: #f13030;
         display: block;
         line-height: 51px;
         height: 51px;
@@ -47,7 +47,7 @@ nav {
         }
 
         &:hover {
-            color:darkviolet;
+            color: #f13030;
 
             svg {
                 opacity: 0;
@@ -109,7 +109,7 @@ nav {
 
     a.active {
         svg {
-            color:olive;
+            color: #f13030;
         }
     }
 
@@ -134,7 +134,7 @@ nav {
             line-height: 16px;
 
             &:hover svg {
-                color:darkviolet;
+                color: #f13030;
             }
         }
 

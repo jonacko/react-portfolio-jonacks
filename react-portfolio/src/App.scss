@@ -3,14 +3,14 @@
 @import 'animate.css';
 
 @font-face {
-  font-family: 'IBM Plex Sans Condensed';
-  src: url('./assets/fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Regular.ttf') format('ttf');
+  font-family: 'Heebo';
+  src: url('./assets/fonts/Heebo/Heebo-VariableFont_wght.ttf') format('ttf');
 }
 
 
 input,
 textarea {
-  font-family: 'Helvetica Neue';
+  font-family: 'Heebo';
 }
 
 // DEAFULT STYLING
