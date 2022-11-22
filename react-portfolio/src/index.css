@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'IBM Plex Sans Condensed', 'sans-serif';
+  font: 300 11px/1.4 'Heebo', 'sans-serif';
   color:aquamarine;
   background: #f6e8ea;
   overflow: hidden;
@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
