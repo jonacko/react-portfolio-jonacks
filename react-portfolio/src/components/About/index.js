@@ -10,7 +10,7 @@ const About = () => {
 
 <p></p>
 
-Please have a look at some of my projects in the 'portfolio' section. These will be updated continually as I develop my portfolio and skillset</h2>
+Please have a look at some of my projects in the 'portfolio' section. These will be updated continually as I develop my portfolio and skillset.</h2>
         </div>
 
         </div>
