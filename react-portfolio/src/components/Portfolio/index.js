@@ -1,6 +1,6 @@
 import './index.scss';
 
-import {Card} from "react-bootstrap";
+import Card from "react-bootstrap/Card";
 
 const Portfolio = () => {
     const cardInfo = [
@@ -12,25 +12,44 @@ const Portfolio = () => {
         {image: "https://unsplash.com/photos/cvBBO4PzWPg", title: "Project 6", text: "jfjks`dfn"},
     ];
 
-    const renderCard = (card, index) => {
-    return (
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" 
-    //   src="holder.js/100px180" 
-      src ={card.image} />
+return (
+  <>
+  {/* {cardInfo.map((card, index) =>( */}
+    {/* <> */}
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src ={cardInfo[0].image}/>
       <Card.Body>
-        <Card.Title>{card.title}</Card.Title>
+        <Card.Title>{cardInfo[0].title}</Card.Title>
         <Card.Text>
-          {card.text}
+          {cardInfo[0].text}
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
     </Card>
-    );
-};
+    {/* </> */}
 
- return 
-    <div className="container portfolio-page">{cardInfo.map(renderCard)}</div>
+  {/* // ))
+// } */}
+  </>
+)
+
+//     const renderCard = (card, index) => {
+    
+// <Card style={{ width: '18rem' }}>
+//       <Card.Img variant="top" 
+//     //   src="holder.js/100px180" 
+//       src ={card.image} />
+//       <Card.Body>
+//         <Card.Title>{card.title}</Card.Title>
+//         <Card.Text>
+//           {card.text}
+//         </Card.Text>
+//         {/* <Button variant="primary">Go somewhere</Button> */}
+//       </Card.Body>
+//     </Card>
+    
+// };
 
 };
 
