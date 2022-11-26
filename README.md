@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# React Portfolio
+- Challenge 20 assignment for UoB Bootcamp due 21-11-22
+- Deployed URL: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Images of deployed web page:
 
-## Available Scripts
+[image]
 
-In the project directory, you can run:
+Contents:
 
-### `npm start`
+1. Summary
+2. Key features
+3. Issues encountered/further amendments
+4. Credits
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 1. Summary
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was undertaken as a submission for a Birmingham University Bootcamp assignment, with a brief to create a React portfolio to showcase projects.
 
-### `npm test`
+The user story is as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[image]
 
-### `npm run build`
+## 2. Key features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A 'Sidebar' encompassing Header and Footer that appears on all pages
+- Sidebar navigation conditionally renders to each section of the portfolio
+- A 'Home' section that welcomes to user to the developer's web page
+- An 'About' component that gives information about the developer, with a link to the 'contact' page
+- A 'Contact' component which gives information on how to contact the developer, including a contact form which allows you to contact the developer without using an API
+************** - A 'Portfolio' component which links to the developer's projects *********
+- A 'Resume' component which gives a link to the developer's CV
+- Footer icons which link to the developer's Github, Linkedin and personal blog
+- SCSS for styling and animations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3. Issues encountered/further amendments
 
-### `npm run eject`
+Please see commented out code for detail of issues/further amendments needed, but summary is below:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- TODO: optimize for other screen sizes using media queries 
+- TODO: embed CV into Resume page
+- TODO: update with more advanced animations to showcase frontend skills
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 4. Credits
+- Help on creating animations in React and SCSS: https://www.youtube.com/watch?v=bmpI252DmiI 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
