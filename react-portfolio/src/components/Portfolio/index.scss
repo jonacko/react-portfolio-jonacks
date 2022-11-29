@@ -5,8 +5,8 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
-        max-height:90%;
+        width: 100%;
+        max-height:100%;
     }
 
     h1 {
@@ -24,8 +24,10 @@
 .btn-main-project {
     width: 20vw;
     height: 15vw;
-    // background: url(/react-portfolio/src/assets/images/crowded-house-bonanza.png);
-    border: none;
+    // background-image: url('./assets/images/crowded-house-bonanza.png');
+    border: solid;
+    border-color: silver;
+    border-width: 1px;
     border-radius: 10px;
     margin: 10px;
 
@@ -34,7 +36,6 @@
 .btn-project-2 {
     width: 20vw;
     height: 15vw;
-    background: purple;
     border: none;
     border-radius: 10px;
     margin: 10px;
@@ -43,16 +44,17 @@
 .btn-project-3 {
     width: 20vw;
     height: 15vw;
-    background: yellow;
     border: none;
     border-radius: 10px;
     margin: 10px;
 }
 
-.project-container-1 {
-    flex-direction: column;
-}
-
-.project-container-2 {
-  flex-direction: column;
+.btn-project-4 {
+    width: 20vw;
+    height: 15vw;
+    border: solid;
+    border-color: silver;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px;
 }

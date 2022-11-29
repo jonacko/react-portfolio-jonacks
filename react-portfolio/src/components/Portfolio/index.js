@@ -1,4 +1,9 @@
+import React from 'react';
 import './index.scss';
+import Image1 from '../../assets/images/crowded-house-bonanza.png';
+import Image2 from '../../assets/images/icebreak-my-date.png';
+import Image3 from '../../assets/images/i-want-to-feel.png';
+import Image4 from '../../assets/images/always-on-time.png';
 
 // import Card from "react-bootstrap/Card";
 
@@ -65,21 +70,24 @@ const Portfolio = () => {
         <div className="container portfolio-page">
         <div className="text-area">
             <h1>My Portfolio</h1>
-            <h2>Here is my Portfolio</h2>
+            <h2>Please click on the projects below to see my work.</h2>
 
 
-        <div class='project-container-1'>
-        <button className="btn-main-project">   
+        <div className='project-container-1 '>
+        <a href = 'https://jonacko.github.io/crowded-house-bonanza/' target= '_blank'><button className="btn-main-project " style={{backgroundImage:`url(${Image1})`, backgroundSize: '100%'}}>  
         
-         </button><button className="btn-project-2"> </button>
+         </button> </a>
+         
+         <a href = 'https://immense-journey-92545.herokuapp.com/' target= '_blank'><button className="btn-project-2 " style={{backgroundImage:`url(${Image2})`, backgroundSize: '100%'}}>  </button> </a>
 
          </div>
 
-         <div class='project-container-2'>
+         <div className='project-container-2 '>
 
-     <button className="btn-project-3"> </button>
+         <a href = 'https://nxtera.github.io/I-Want-To-Feel/' target= '_blank'><button className="btn-project-3 " style={{backgroundImage:`url(${Image3})`, backgroundSize: '100%'}}> </button> </a>
 
-     <button className="btn-project-4"> </button>
+         <a href = 'https://jonacko.github.io/always-on-time/' target= '_blank'><button className="btn-project-4 " style={{backgroundImage:`url(${Image4})`, backgroundSize: '100%'}}> </button> </a>
+
          
          </div>
         </div>
