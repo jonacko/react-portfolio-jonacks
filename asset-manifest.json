@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio-jonaks/static/css/main.0a86d8f5.css",
-    "main.js": "/react-portfolio-jonaks/static/js/main.b6c1a05a.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio-jonaks/static/js/787.a2cb61a6.chunk.js",
-    "static/media/icebreak-my-date.png": "/react-portfolio-jonaks/static/media/icebreak-my-date.bf28d201d83dea34f3ee.png",
-    "static/media/crowded-house-bonanza.png": "/react-portfolio-jonaks/static/media/crowded-house-bonanza.a125373371c1e5e4767b.png",
-    "static/media/i-want-to-feel.png": "/react-portfolio-jonaks/static/media/i-want-to-feel.ae1b6b1a0c683190553c.png",
-    "static/media/always-on-time.png": "/react-portfolio-jonaks/static/media/always-on-time.ee485b80e0f2d058ea8c.png",
-    "static/media/jess-avatar.png": "/react-portfolio-jonaks/static/media/jess-avatar.734249c4ea5ba18f9086.png",
-    "index.html": "/react-portfolio-jonaks/index.html",
-    "main.0a86d8f5.css.map": "/react-portfolio-jonaks/static/css/main.0a86d8f5.css.map",
-    "main.b6c1a05a.js.map": "/react-portfolio-jonaks/static/js/main.b6c1a05a.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio-jonaks/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio-jonacks/static/css/main.0a86d8f5.css",
+    "main.js": "/react-portfolio-jonacks/static/js/main.1b65a6fa.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio-jonacks/static/js/787.a2cb61a6.chunk.js",
+    "static/media/icebreak-my-date.png": "/react-portfolio-jonacks/static/media/icebreak-my-date.bf28d201d83dea34f3ee.png",
+    "static/media/crowded-house-bonanza.png": "/react-portfolio-jonacks/static/media/crowded-house-bonanza.a125373371c1e5e4767b.png",
+    "static/media/i-want-to-feel.png": "/react-portfolio-jonacks/static/media/i-want-to-feel.ae1b6b1a0c683190553c.png",
+    "static/media/always-on-time.png": "/react-portfolio-jonacks/static/media/always-on-time.ee485b80e0f2d058ea8c.png",
+    "static/media/jess-avatar.png": "/react-portfolio-jonacks/static/media/jess-avatar.734249c4ea5ba18f9086.png",
+    "index.html": "/react-portfolio-jonacks/index.html",
+    "main.0a86d8f5.css.map": "/react-portfolio-jonacks/static/css/main.0a86d8f5.css.map",
+    "main.1b65a6fa.js.map": "/react-portfolio-jonacks/static/js/main.1b65a6fa.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio-jonacks/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a86d8f5.css",
-    "static/js/main.b6c1a05a.js"
+    "static/js/main.1b65a6fa.js"
   ]
 }
